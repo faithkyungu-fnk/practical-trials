@@ -1,4 +1,3 @@
-
 /*forEach*/
 const fruits = ["apple", "banana", "cherry"]
 for(let i =0;i <fruits.length;i++){
@@ -42,17 +41,7 @@ const her = his.map(function(his){
 console.log(her[1]);
 
 
-/*filter*/
-const age =[18,50,7,18,10];
-const adults=age.filter(function(age){
-    return age>=18;
-});
-console.log(adults)
-const nums=[1,2,3,4,5,6,7,8,9]
-const even=nums.filter(function(num){
-    return num %2===0;
-});
-console.log(even);
+
 
 
 /*find*/
@@ -79,18 +68,7 @@ const result=heys.find(function(hey){
 console.log(result)
 
 
-/*reduce*/
-const numbers=[10,20,30]
-const total=numbers.reduce(function(sum,number){
-    return sum+number;
-},0);
-console.log(total)
 
 
-/*sort*/
-const happy=[100,2,30];
-happy.sort();
-console.log(happy);
-const smile = ["zac","kelv","ali"];
-smile.sort();
-console.log(smile)
+
+
